@@ -1,12 +1,12 @@
 {
   "name": "without_workerthreads",
   "version": "1.0.0",
-  "main": "main.js",
+  "main": "src/server.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node  --env-file=.env src/server.js",
-    "dev": "node --watch --env-file=.env ./src/server.js"
+    "dev": "node --watch --env-file=.env src/server.js"
   },
   "keywords": [],
   "author": "",
