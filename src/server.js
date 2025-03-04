@@ -7,8 +7,8 @@ import { createServer } from 'node:http';
 
 import app from './app.js'
 
-const cpu_count = os.cpus().length
-// const cpu_length = 2
+// const cpu_count = os.cpus().length
+const cpu_count = 1
 
 if (cluster.isPrimary) {
     console.log(`cluster: total cpu_count ${cpu_count}`)
